@@ -65,8 +65,6 @@ hallatech/
 │   ├── hooks/                   # Custom React hooks
 │   └── lib/                     # Utility functions
 ├── public/                      # Static assets
-│   ├── _redirects               # Netlify redirects
-│   └── reee.webp               # Project images
 ├── next.config.cjs              # Next.js configuration
 ├── tailwind.config.cjs          # Tailwind CSS config
 ├── tsconfig.json                # TypeScript config
