@@ -26,7 +26,7 @@ const Works = () => {
       url: 'https://soundhalla.com/',
       slogan: 'Amplify Your Sound',
       description: 'A platform that helps emerging artists get heard by providing marketing and funding powered by AI.',
-      image: '/reee.webp',
+      image: '/soundhalla.webp',
       category: 'Music & Entertainment'
     },
     {
@@ -34,7 +34,7 @@ const Works = () => {
       url: 'https://cashwyre.com/',
       slogan: 'Send Money, Simplified',
       description: 'Cashwyre is simplifying payments globally. Send and receive money across borders. It\'s fast, easy, and secure.',
-      image: '/reee.webp',
+      image: '/cashwyre.webp',
       category: 'Fintech'
     },
     {
@@ -42,7 +42,7 @@ const Works = () => {
       url: 'http://aldora.com/',
       slogan: 'Game Analytics Redefined',
       description: 'A data analytics platform providing rich insights into gaming trends and performance.',
-      image: '/reee.webp',
+      image: '/aldora.webp',
       category: 'Gaming & Analytics'
     },
     {
@@ -50,7 +50,7 @@ const Works = () => {
       url: 'https://www.vibeazy.com/',
       slogan: 'Find Your Vibe',
       description: 'Find places to chill on your budget. Discover restaurants, lounges, and hangouts that match your vibe and wallet.',
-      image: '/reee.webp',
+      image: '/vibeazy.webp',
       category: 'Lifestyle'
     },
     {
@@ -58,12 +58,12 @@ const Works = () => {
       url: 'http://mendafrica.com/',
       slogan: 'Direct Impact, Real Change',
       description: 'Give directly to verified, high-impact projects across Africa. Discover and support initiatives that make real impacts.',
-      image: '/reee.webp',
+      image: '/mendafrica.webp',
       category: 'Social Impact'
     },
     {
       name: 'Tracla',
-      url: 'https://www.mendafrica.org/',
+      url: 'https://www.tracla.com/',
       slogan: 'Track Every Step',
       description: 'Advanced tracking and logistics solution for better supply chain management and transparency.',
       image: '/reee.webp',
@@ -82,7 +82,7 @@ const Works = () => {
       url: 'https://www.mysharppocket.com/',
       slogan: 'Smart Spending Solutions',
       description: 'Personal finance management made simple with intelligent budgeting and expense tracking.',
-      image: '/reee.webp',
+      image: '/sharp_pocket.webp',
       category: 'Fintech'
     },
     {
@@ -90,7 +90,7 @@ const Works = () => {
       url: 'https://www.shopnsure.com/',
       slogan: 'Shop with Confidence',
       description: 'Secure online shopping platform with buyer protection and verified merchant network.',
-      image: '/reee.webp',
+      image: '/shopnsure.webp',
       category: 'E-commerce'
     }
   ]
@@ -114,10 +114,10 @@ const Works = () => {
             Our Works
           </h2>
           <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6">
-            Some Of The Products We've Built And Supported
+            Some Of The Products We&apos;ve Built And Supported
           </h3>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            From startups to scale-ups, we've helped build products that matter and create real impact in the world.
+            From startups to scale-ups, we&apos;ve helped build products that matter and create real impact in the world.
           </p>
         </motion.div>
 

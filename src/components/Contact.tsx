@@ -40,7 +40,7 @@ const Contact = () => {
             Get In Touch
           </h2>
           <p className="text-xl md:text-2xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-            Need support in bringing that idea to life? Contact us, and let's help you build that product or scale that business!
+            Need support in bringing that idea to life? Contact us, and let&apos;s help you build that product or scale that business!
           </p>
         </motion.div>
 
@@ -143,7 +143,7 @@ const Contact = () => {
                   viewport={{ once: true }}
                   className="text-lg text-muted-foreground mb-8 leading-relaxed"
                 >
-                  Whether you need a complete product development team or specialized growth marketing support, we're here to help you succeed.
+                  Whether you need a complete product development team or specialized growth marketing support, we&apos;re here to help you succeed.
                 </motion.p>
                 
                 <motion.div

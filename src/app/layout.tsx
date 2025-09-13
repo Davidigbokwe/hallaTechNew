@@ -8,6 +8,9 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'HallaTech',
   description: 'Your tech solutions partner',
+  icons: {
+    icon: '/hallatech.webp',
+  },
 }
 
 export default function RootLayout({

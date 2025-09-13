@@ -153,7 +153,7 @@ const Statistics = () => {
           className="text-center mt-16"
         >
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            Whether you're starting from scratch or looking to grow, we build with you — and grow with you.
+            Whether you&apos;re starting from scratch or looking to grow, we build with you — and grow with you.
           </p>
         </motion.div>
       </div>
