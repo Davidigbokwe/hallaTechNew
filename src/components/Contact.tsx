@@ -1,19 +1,38 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { Phone, Mail, MessageCircle, ArrowRight } from 'lucide-react'
+import { Phone, Mail, ArrowRight } from 'lucide-react'
 import { Button } from './ui/button'
 import { Card, CardContent } from './ui/card'
+
+const WhatsAppIcon = () => (
+  <svg
+    width="32"
+    height="32"
+    viewBox="0 0 32 32"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M16 2C8.268 2 2 8.268 2 16c0 2.652.672 5.196 1.928 7.428L2 30l6.572-1.928C11.804 29.328 14.348 30 16 30c7.732 0 14-6.268 14-14S23.732 2 16 2z"
+      fill="#25D366"
+    />
+    <path
+      d="M23.5 8.5c-.5-.5-1.5-.5-2 0l-1.5 1.5c-.5.5-.5 1.5 0 2l.5.5c.5.5 1.5.5 2 0l1.5-1.5c.5-.5.5-1.5 0-2l-.5-.5zM12.5 12.5c-1.5 0-3 1-3 2.5 0 1.5 1 2.5 2.5 2.5s2.5-1 2.5-2.5c0-1.5-1-2.5-2.5-2.5zM19.5 12.5c-1.5 0-3 1-3 2.5 0 1.5 1 2.5 2.5 2.5s2.5-1 2.5-2.5c0-1.5-1-2.5-2.5-2.5z"
+      fill="white"
+    />
+  </svg>
+)
 
 const Contact = () => {
   const contactMethods = [
     {
-      icon: MessageCircle,
+      icon: WhatsAppIcon,
       title: 'Chat with support',
       value: '+234 805 667 9806',
       action: 'Chat with us',
-      href: 'tel:+2348056679806',
-      gradient: 'from-blue-500 to-cyan-500'
+      href: 'https://wa.me/2348056679806',
+      gradient: 'from-green-500 to-green-600'
     },
     {
       icon: Mail,
@@ -161,17 +180,6 @@ const Contact = () => {
                     <a href="mailto:support@hallatech.com">
                       Start Your Project Today
                       <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
-                    </a>
-                  </Button>
-                  
-                  <Button
-                    asChild
-                    variant="outline"
-                    size="lg"
-                    className="w-full border-primary text-primary hover:bg-primary hover:text-primary-foreground font-semibold py-6 text-lg"
-                  >
-                    <a href="tel:+2348056679806">
-                      Schedule a Call
                     </a>
                   </Button>
                 </motion.div>

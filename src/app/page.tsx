@@ -36,9 +36,9 @@ export default function Home() {
       <Navigation />
       <main>
         <Hero />
-        <Services />
-        <Statistics />
         <Works />
+        <Statistics />
+        <Services />
         <Contact />
       </main>
       <Footer />

@@ -66,7 +66,7 @@ const Works = () => {
       url: 'https://www.tracla.com/',
       slogan: 'Track Every Step',
       description: 'Advanced tracking and logistics solution for better supply chain management and transparency.',
-      image: '/reee.webp',
+      image: '/tracla.png',
       category: 'Logistics'
     },
     {
