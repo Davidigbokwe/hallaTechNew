@@ -134,6 +134,51 @@ const Hero = () => {
             </motion.div>
           </motion.div>
         </div>
+        {/* Sliding Logos Carousel (hidden on mobile, visible on md+) */}
+        <div className="relative z-10 mt-10 md:mt-14 px-4 md:px-16 lg:px-32 hidden md:block">
+          <div className="overflow-hidden w-full">
+            <motion.div
+              className="flex gap-10 items-center"
+              initial={{ x: 0 }}
+              animate={{ x: [0, -400, 0] }}
+              transition={{
+                duration: 18,
+                repeat: Infinity,
+                ease: "linear"
+              }}
+            >
+              {[
+                'soundhalla.webp',
+                'cashwyre.webp',
+                'aldora.webp',
+                'vibeazy.webp',
+                'mendafrica.webp',
+                'reee.webp',
+                'tunenova.png',
+                'sharp_pocket.webp',
+                'shopnsure.webp',
+                'hallatech.webp',
+                'travucash.webp',
+                'uiux.webp',
+                'Product_development.webp',
+                'Security_ompliance.webp',
+                'Data_analytics.webp',
+                'Digital_advertising.webp',
+                'Growth_marketing.webp',
+              ].map((logo, idx) => (
+                <div key={logo + idx} className="flex-shrink-0">
+                  <Image
+                    src={`/${logo}`}
+                    alt={logo.replace(/\..+$/, '')}
+                    width={90}
+                    height={60}
+                    className="object-contain h-12 w-auto transition duration-300"
+                  />
+                </div>
+              ))}
+            </motion.div>
+          </div>
+        </div>
       </div>
 
     </section>
