@@ -152,19 +152,12 @@ const Hero = () => {
                 'cashwyre.webp',
                 'aldora.webp',
                 'vibeazy.webp',
-                'mendafrica.webp',
-                'reee.webp',
                 'tunenova.png',
-                'sharp_pocket.webp',
+                'Teilor.webp',
+                'sharp_pocket.png',
                 'shopnsure.webp',
                 'hallatech.webp',
                 'travucash.webp',
-                'uiux.webp',
-                'Product_development.webp',
-                'Security_ompliance.webp',
-                'Data_analytics.webp',
-                'Digital_advertising.webp',
-                'Growth_marketing.webp',
               ].map((logo, idx) => (
                 <div key={logo + idx} className="flex-shrink-0">
                   <Image

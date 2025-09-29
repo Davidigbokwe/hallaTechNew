@@ -6,21 +6,9 @@ import { Button } from './ui/button'
 import { Card, CardContent } from './ui/card'
 
 const WhatsAppIcon = () => (
-  <svg
-    width="32"
-    height="32"
-    viewBox="0 0 32 32"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <path
-      d="M16 2C8.268 2 2 8.268 2 16c0 2.652.672 5.196 1.928 7.428L2 30l6.572-1.928C11.804 29.328 14.348 30 16 30c7.732 0 14-6.268 14-14S23.732 2 16 2z"
-      fill="#25D366"
-    />
-    <path
-      d="M23.5 8.5c-.5-.5-1.5-.5-2 0l-1.5 1.5c-.5.5-.5 1.5 0 2l.5.5c.5.5 1.5.5 2 0l1.5-1.5c.5-.5.5-1.5 0-2l-.5-.5zM12.5 12.5c-1.5 0-3 1-3 2.5 0 1.5 1 2.5 2.5 2.5s2.5-1 2.5-2.5c0-1.5-1-2.5-2.5-2.5zM19.5 12.5c-1.5 0-3 1-3 2.5 0 1.5 1 2.5 2.5 2.5s2.5-1 2.5-2.5c0-1.5-1-2.5-2.5-2.5z"
-      fill="white"
-    />
+  <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="16" cy="16" r="16" fill="#25D366"/>
+    <path d="M23.472 19.382c-.355-.177-2.1-1.037-2.424-1.155-.324-.119-.56-.177-.796.177-.237.355-.914 1.155-1.122 1.393-.207.237-.414.266-.769.089-.355-.178-1.5-.553-2.86-1.763-1.057-.944-1.77-2.108-1.98-2.463-.207-.355-.022-.546.155-.723.159-.158.355-.414.533-.62.178-.207.237-.355.355-.592.119-.237.06-.444-.03-.62-.089-.177-.796-1.92-1.09-2.63-.287-.691-.579-.597-.796-.608-.207-.009-.444-.011-.68-.011-.237 0-.62.089-.944.444-.324.355-1.24 1.211-1.24 2.951 0 1.74 1.267 3.422 1.444 3.659.178.237 2.5 3.82 6.055 5.207.847.292 1.507.466 2.023.596.85.203 1.624.174 2.236.106.682-.075 2.1-.857 2.398-1.686.296-.83.296-1.54.207-1.687-.089-.148-.324-.237-.68-.414z" fill="#fff"/>
   </svg>
 )
 
@@ -94,7 +82,7 @@ const Contact = () => {
                           variant="ghost"
                           className="group/btn text-primary hover:text-primary hover:bg-primary/10 p-0 h-auto font-medium"
                         >
-                          <a href={method.href}>
+                          <a href={method.href} target={method.title === 'Chat with support' ? '_blank' : undefined} rel={method.title === 'Chat with support' ? 'noopener noreferrer' : undefined}>
                             {method.action}
                             <ArrowRight className="ml-2 h-4 w-4 group-hover/btn:translate-x-1 transition-transform" />
                           </a>
@@ -106,7 +94,7 @@ const Contact = () => {
               </motion.div>
             ))}
             
-            {/* Social Media Call-to-Action */}
+            {/*
             <motion.div
               initial={{ opacity: 0, x: -20 }}
               whileInView={{ opacity: 1, x: 0 }}
@@ -127,6 +115,7 @@ const Contact = () => {
                 </CardContent>
               </Card>
             </motion.div>
+            */}
           </div>
 
           {/* CTA Section */}
@@ -177,7 +166,7 @@ const Contact = () => {
                     size="lg"
                     className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-semibold py-6 text-lg group"
                   >
-                    <a href="mailto:support@hallatech.com">
+                    <a href="https://wa.me/2348056679806" target="_blank" rel="noopener noreferrer">
                       Start Your Project Today
                       <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
                     </a>

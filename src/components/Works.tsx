@@ -25,9 +25,9 @@ const Works = () => {
       name: 'SoundHalla',
       url: 'https://soundhalla.com/',
       slogan: 'Amplify Your Sound',
-      description: 'A platform that helps emerging artists get heard by providing marketing and funding powered by AI.',
+      description: 'An intelligent platform that fuels artist growth with data-driven marketing and accessible funding solutions.',
       image: '/soundhalla.webp',
-      category: 'Music & Entertainment'
+      category: 'Music & Entertainment',
     },
     {
       name: 'Cashwyre',
@@ -40,10 +40,10 @@ const Works = () => {
     {
       name: 'Aldora',
       url: 'http://aldora.com/',
-      slogan: 'Game Analytics Redefined',
-      description: 'A data analytics platform providing rich insights into gaming trends and performance.',
+      slogan: "Cozumel's Premier Dive Experience",
+      description: "A luxury dive shop specializing in extended, small-group scuba adventures. We provide faster boats, longer dives, and personalized service to explore Cozumel's best sites.",
       image: '/aldora.webp',
-      category: 'Gaming & Analytics'
+      category: 'Luxury '
     },
     {
       name: 'Vibeazy',
@@ -54,35 +54,28 @@ const Works = () => {
       category: 'Lifestyle'
     },
     {
-      name: 'MendAfrica',
-      url: 'http://mendafrica.com/',
-      slogan: 'Direct Impact, Real Change',
-      description: 'Give directly to verified, high-impact projects across Africa. Discover and support initiatives that make real impacts.',
-      image: '/mendafrica.webp',
-      category: 'Social Impact'
-    },
-    {
-      name: 'Tracla',
-      url: 'https://www.tracla.com/',
-      slogan: 'Track Every Step',
-      description: 'Advanced tracking and logistics solution for better supply chain management and transparency.',
-      image: '/tracla.png',
-      category: 'Logistics'
-    },
-    {
       name: 'TuneNova',
       url: 'https://www.tunenova.com/',
       slogan: 'Music Discovery Reimagined',
-      description: 'Discover new music through AI-powered recommendations and connect with artists worldwide.',
+      description: 'Discover new music through recommendations and connect with artists worldwide.',
       image: '/tunenova.png',
       category: 'Music & Entertainment'
     },
     {
-      name: 'SharpPocket',
+      name: 'Tracla',
+      url: 'https://www.tracla.com/',
+      slogan: 'Loyalty, Simplified',
+      description: 'Identify your top spenders and build customer relationships through automated WhatsApp rewards. Just a QR code—no new apps, no complex setup.',
+      image: '/tracla.png',
+      category: 'Customer Relationships'
+    },
+    
+    {
+      name: 'Sharp Pocket',
       url: 'https://www.mysharppocket.com/',
       slogan: 'Smart Spending Solutions',
       description: 'Personal finance management made simple with intelligent budgeting and expense tracking.',
-      image: '/sharp_pocket.webp',
+      image: '/sharp_pocket.png',
       category: 'Fintech'
     },
     {
@@ -92,7 +85,15 @@ const Works = () => {
       description: 'Secure online shopping platform with buyer protection and verified merchant network.',
       image: '/shopnsure.webp',
       category: 'E-commerce'
-    }
+    },
+    {
+      name: 'Tailorr',
+      url: 'http://tailorr.com/',
+      slogan: 'Streamline Your Tailoring Business',
+      description: 'An intuitive platform that helps professional tailors manage client profiles, track measurements, and handle orders efficiently, all in one place.',
+      image: '/teilor.webp',
+      category: 'Social Impact'
+    },
   ]
 
   const openProject = (url: string) => {
