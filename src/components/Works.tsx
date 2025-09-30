@@ -25,7 +25,7 @@ const Works = () => {
       name: 'SoundHalla',
       url: 'https://soundhalla.com/',
       slogan: 'Amplify Your Sound',
-      description: 'An intelligent platform that fuels artist growth with data-driven marketing and accessible funding solutions.',
+      description:  'A cutting-edge platform that empowers music artists with flexible, strategic, and data-informed marketing solutions designed to maximize growth and reach.',
       image: '/soundhalla.webp',
       category: 'Music & Entertainment',
     },
@@ -33,7 +33,7 @@ const Works = () => {
       name: 'Cashwyre',
       url: 'https://cashwyre.com/',
       slogan: 'Send Money, Simplified',
-      description: 'Cashwyre is simplifying payments globally. Send and receive money across borders. It\'s fast, easy, and secure.',
+      description: 'Simplifying global payments for individuals and businesses. Cashwyre uses Bitcoin and crypto rails to make cross-border transfers faster, easier, and more affordable than traditional methods.',
       image: '/cashwyre.webp',
       category: 'Fintech'
     },
@@ -41,9 +41,9 @@ const Works = () => {
       name: 'Aldora',
       url: 'http://aldora.com/',
       slogan: "Cozumel's Premier Dive Experience",
-      description: "A luxury dive shop specializing in extended, small-group scuba adventures. We provide faster boats, longer dives, and personalized service to explore Cozumel's best sites.",
+      description: "Cozumel's top-rated, full-service dive shop specializing in extended, small-group adventures.",
       image: '/aldora.webp',
-      category: 'Luxury '
+      category: 'Premium Scuba Tours '
     },
     {
       name: 'Vibeazy',
@@ -57,7 +57,7 @@ const Works = () => {
       name: 'TuneNova',
       url: 'https://www.tunenova.com/',
       slogan: 'Music Discovery Reimagined',
-      description: 'Discover new music through recommendations and connect with artists worldwide.',
+      description: 'Grow your fanbase across Spotify, Apple Music, and YouTube.',
       image: '/tunenova.png',
       category: 'Music & Entertainment'
     },
@@ -65,8 +65,8 @@ const Works = () => {
       name: 'Tracla',
       url: 'https://www.tracla.com/',
       slogan: 'Loyalty, Simplified',
-      description: 'Identify your top spenders and build customer relationships through automated WhatsApp rewards. Just a QR code—no new apps, no complex setup.',
-      image: '/tracla.png',
+      description: 'Tracla helps you track how much your customers are spending, reward your top customers, and make more sales.',
+      image: '/tracla.jpg',
       category: 'Customer Relationships'
     },
     
@@ -74,7 +74,7 @@ const Works = () => {
       name: 'Sharp Pocket',
       url: 'https://www.mysharppocket.com/',
       slogan: 'Smart Spending Solutions',
-      description: 'Personal finance management made simple with intelligent budgeting and expense tracking.',
+      description: 'Pay bills, buy airtime and data, settle electricity, and send or withdraw money fast, simple, and secure.',
       image: '/sharp_pocket.png',
       category: 'Fintech'
     },
@@ -82,16 +82,16 @@ const Works = () => {
       name: 'ShopNSure',
       url: 'https://www.shopnsure.com/',
       slogan: 'Shop with Confidence',
-      description: 'Secure online shopping platform with buyer protection and verified merchant network.',
+      description: 'A secure online payment platform that prevents scams by holding the buyer’s money safely until the buyer confirms the successful delivery of goods.',
       image: '/shopnsure.webp',
-      category: 'E-commerce'
+      category: 'Fintech'
     },
     {
-      name: 'Tailorr',
+      name: 'Teilerr',
       url: 'http://tailorr.com/',
       slogan: 'Streamline Your Tailoring Business',
-      description: 'An intuitive platform that helps professional tailors manage client profiles, track measurements, and handle orders efficiently, all in one place.',
-      image: '/teilor.webp',
+      description: 'Teilor helps professional tailors organize client information, track measurements, and grow their business with intuitive digital tools designed specifically for the tailoring industry',
+      image: '/Teilor.webp',
       category: 'Social Impact'
     },
   ]
@@ -111,9 +111,7 @@ const Works = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-sm font-semibold text-primary tracking-wide uppercase mb-4">
-            Our Works
-          </h2>
+          
           <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6">
             Some Of The Products We&apos;ve Built And Supported
           </h3>
