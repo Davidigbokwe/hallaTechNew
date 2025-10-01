@@ -40,10 +40,10 @@ const Works = () => {
     {
       name: 'Aldora',
       url: 'http://aldora.com/',
-      slogan: "Cozumel's Premier Dive Experience",
-      description: "Cozumel's top-rated, full-service dive shop specializing in extended, small-group adventures.",
+      slogan: "Gaming Analytics",
+      description: "ALDORA bridges the interpretation gap between raw metrics and actionable intelligence in gaming’s $250 billion ecosystem.",
       image: '/aldora.webp',
-      category: 'Premium Scuba Tours '
+      category: 'Industry'
     },
     {
       name: 'Vibeazy',
@@ -92,7 +92,7 @@ const Works = () => {
       slogan: 'Streamline Your Tailoring Business',
       description: 'Teilor helps professional tailors organize client information, track measurements, and grow their business with intuitive digital tools designed specifically for the tailoring industry',
       image: '/Teilor.webp',
-      category: 'Social Impact'
+      category: 'Fashion tech'
     },
   ]
 

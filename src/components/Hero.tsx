@@ -34,10 +34,12 @@ const Hero = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.3 }}
-              className="text-4xl md:text-6xl font-extrabold tracking-tight mb-6"
+              className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6 leading-tight"
             >
-              Building Africa&apos;s Next
-              <span className="text-primary ml-2">Big Products</span>
+               We Build and Grow{' '}
+              <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+                Tech Products
+              </span>
             </motion.h1>
             
 
@@ -85,14 +87,14 @@ const Hero = () => {
                   repeat: Infinity,
                   ease: "easeInOut"
                 }}
-                className="bg-gradient-to-br from-primary/10 to-accent/10 rounded-3xl p-8 backdrop-blur-sm border border-primary/20"
+                className="bg-gradient-to-br from-primary/10 to-accent/10 rounded-3xl p-8 backdrop-blur-sm"
               >
                 <Image
-                  src="/dasboard.png"
+                  src="/reee.webp"
                   alt="Tracla App Screenshot"
-                  width={1000}
-                  height={750}
-                  className="w-full max-w-[520px] h-auto rounded-3xl border-4 border-primary shadow-[0_8px_40px_rgba(0,0,0,0.25)] mx-auto"
+                  width={800}
+                  height={600}
+                  className="w-full max-w-[520px] h-auto rounded-3xl shadow-[0_8px_40px_rgba(0,0,0,0.25)] mx-auto"
                   priority
                 />
               </motion.div>
