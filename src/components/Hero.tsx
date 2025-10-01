@@ -36,7 +36,7 @@ const Hero = () => {
               transition={{ duration: 0.8, delay: 0.3 }}
               className="text-4xl md:text-6xl font-extrabold tracking-tight mb-6"
             >
-              Building Africa's Next
+              Building Africa&apos;s Next
               <span className="text-primary ml-2">Big Products</span>
             </motion.h1>
             
@@ -155,7 +155,6 @@ const Hero = () => {
                 'tunenova.png',
                 'Teilor.webp',
                 'sharp_pocket.png',
-                'tracla.jpg',
                 'shopnsure.webp',
                 'hallatech.webp',
                 'travucash.webp',
