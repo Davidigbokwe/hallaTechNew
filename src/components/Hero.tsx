@@ -153,6 +153,7 @@ const Hero = () => {
                 'aldora.webp',
                 'vibeazy.webp',
                 'tunenova.png',
+                // jhg
                 'Teilor.webp',
                 'sharp_pocket.png',
                 'shopnsure.webp',
