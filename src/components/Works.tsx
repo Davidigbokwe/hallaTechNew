@@ -66,7 +66,7 @@ const Works = () => {
       url: 'https://www.tracla.com/',
       slogan: 'Loyalty, Simplified',
       description: 'Tracla helps you track how much your customers are spending, reward your top customers, and make more sales.',
-      image: '/tracla.jpg',
+      image: '/t1.jpg',
       category: 'Customer Relationships'
     },
     
