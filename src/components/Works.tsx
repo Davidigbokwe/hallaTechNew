@@ -22,10 +22,10 @@ const Works = () => {
 
   const projects: Project[] = [
     {
-      name: 'SoundHalla',
+      name: 'Soundhalla',
       url: 'https://soundhalla.com/',
       slogan: 'Amplify Your Sound',
-      description:  'A cutting-edge platform that empowers music artists with flexible, strategic, and data-informed marketing solutions designed to maximize growth and reach.',
+      description:  'An intelligent platform that fuels artist growth with data-driven marketing and accessible funding solutions.',
       image: '/soundhalla.webp',
       category: 'Music & Entertainment',
     },
@@ -43,7 +43,7 @@ const Works = () => {
       slogan: "Gaming Analytics",
       description: "ALDORA bridges the interpretation gap between raw metrics and actionable intelligence in gaming’s $250 billion ecosystem.",
       image: '/aldora.webp',
-      category: 'Industry'
+      category: 'Gaming'
     },
     {
       name: 'Vibeazy',
@@ -87,7 +87,7 @@ const Works = () => {
       category: 'Fintech'
     },
     {
-      name: 'Teilerr',
+      name: 'Teilorr',
       url: 'http://tailorr.com/',
       slogan: 'Streamline Your Tailoring Business',
       description: 'Teilor helps professional tailors organize client information, track measurements, and grow their business with intuitive digital tools designed specifically for the tailoring industry',
