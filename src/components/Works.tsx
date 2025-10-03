@@ -88,7 +88,7 @@ const Works = () => {
     },
     {
       name: 'Teilorr',
-      url: 'http://tailorr.com/',
+      url: 'http://www.teilorr.com',
       slogan: 'Streamline Your Tailoring Business',
       description: 'Teilor helps professional tailors organize client information, track measurements, and grow their business with intuitive digital tools designed specifically for the tailoring industry',
       image: '/Teilor.webp',
