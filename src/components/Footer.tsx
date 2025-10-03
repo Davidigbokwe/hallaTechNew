@@ -54,12 +54,12 @@ const Footer = () => {
             {/* Contact Info */}
             <div className="space-y-3">
               <motion.a
-                href="mailto:support@hallatech.com"
+                href="mailto:support@hallatechnologies.com"
                 whileHover={{ x: 5 }}
                 className="flex items-center text-primary-foreground/80 hover:text-primary-foreground transition-colors group"
               >
                 <Mail className="h-5 w-5 mr-3 group-hover:scale-110 transition-transform" />
-                support@hallatech.com
+                support@hallatechnologies.com
               </motion.a>
               
               <motion.a

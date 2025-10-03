@@ -25,9 +25,9 @@ const Contact = () => {
     {
       icon: Mail,
       title: 'Send us email',
-      value: 'support@hallatech.com',
+      value: 'support@hallatechnologies.com',
       action: 'Contact us',
-      href: 'mailto:support@hallatech.com',
+      href: 'mailto:support@hallatechnologies.com',
       gradient: 'from-purple-500 to-pink-500'
     }
   ]
